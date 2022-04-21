@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.box-principal{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 25px 0px 25px 0px;
+}
+
+.titulo{
+	padding: 10px;
+	font-family: arial;
+}
+
+form{
+	padding: 25px;
+	background: #FFF2EF;
+}
+
+input[type='number']{
+	width: 100%;
+	padding: 5px;
+}
+
+button{
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #FFD5CC;
+	border: none;
+}
+
+button:hover{
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #E19F90;
+	color: whitesmoke;
+}

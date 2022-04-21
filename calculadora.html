@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora Simples</title>
+
+		<link rel="stylesheet" type="text/css" href="estiloCalc.css" />
+		<script type="text/javascript" src="logica_calculadora.js"></script>
+	</head>
+	<body>
+		<div class="box-principal">
+			<h2 class="titulo">CALCULADORA SIMPLES</h2>
+			
+			<form>
+				<input type="radio" name="escolha" id="soma" value="soma">
+				<label>| Soma</label><br>
+				<input type="radio" name="escolha" id="sub" value="subtracao">
+				<label>| Subtracao</label><br>
+				<input type="radio" name="escolha" id="mult" value="multiplicacao">
+				<label>| Multiplicação</label><br>
+				<input type="radio" name="escolha" id="div" value="divisao">
+				<label>| Divisão</label><br><br>
+
+				<input type="number" id="num1" name="num1" placeholder="Digite o primeiro número"><br><br>
+				<input type="number" id='num2' name="num2" placeholder="Digite o segundo número"><br><br>
+				<button onclick="calcular()">Calcular</button>
+			</form>
+			<br>
+			<div class="resultadoSoma">Resultado: <br><br></div>
+		</div>
+	</body>
+</html>
